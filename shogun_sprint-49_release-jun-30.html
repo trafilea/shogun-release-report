@@ -1,0 +1,551 @@
+<html
+        xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>JIRA</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\.";
+    mso-displayed-thousand-separator:"\,";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+td.issuekey,
+td.issuetype,
+td.status {
+    mso-style-parent: "";
+    mso-number-format: \@;
+    text-align: left;
+}
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#205081" height="30">
+        <td colspan="4">
+            <img src="https://trafilea.atlassian.net/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="JIRA">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            <a href="https://trafilea.atlassian.net/issues/?jql=status+%3D+UAT+AND+cf%5B10115%5D+%3D+254+order+by+created+DESC">JIRA</a>
+        </td>
+    </tr>
+    <tr>
+                <td colspan="4">
+            Displaying <strong>26</strong> issues at <strong>30/Jun/22 11:12 AM</strong>.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable" class="aui " border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-issuetype" data-id="issuetype">
+                                                        Issue Type
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey" data-id="issuekey">
+                                                        Key
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-summary" data-id="summary">
+                                                        Summary
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-status" data-id="status">
+                                                        Status
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                    
+
+                <tr id="issuerow257786" rel="257786" data-issuekey="STOR-3046" class="issuerow">
+                                            <td class="issuetype">    Sub-bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-3046" href="https://trafilea.atlassian.net/browse/STOR-3046">STOR-3046</a>
+</td>
+                                            <td class="summary"><p>
+            <span class="parentIssue">STOR-2001</span>
+                Shogun - Search - Remove extra message in empty result page
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow257736" rel="257736" data-issuekey="STOR-3045" class="issuerow">
+                                            <td class="issuetype">    Sub-bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-3045" href="https://trafilea.atlassian.net/browse/STOR-3045">STOR-3045</a>
+</td>
+                                            <td class="summary"><p>
+            <span class="parentIssue">STOR-2988</span>
+                Shogun - SEO - Rich Snippets for PDP - Seomator without results
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow257726" rel="257726" data-issuekey="STOR-3044" class="issuerow">
+                                            <td class="issuetype">    Sub-bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-3044" href="https://trafilea.atlassian.net/browse/STOR-3044">STOR-3044</a>
+</td>
+                                            <td class="summary"><p>
+            <span class="parentIssue">STOR-2989</span>
+                Shogun - SEO - Change H1 in PDP - H1 is applied on Recommended section and reviews title and not on the product title
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow257265" rel="257265" data-issuekey="STOR-3041" class="issuerow">
+                                            <td class="issuetype">    Sub-bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-3041" href="https://trafilea.atlassian.net/browse/STOR-3041">STOR-3041</a>
+</td>
+                                            <td class="summary"><p>
+            <span class="parentIssue">STOR-2362</span>
+                PDP - Buy it Now button is not working
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow257226" rel="257226" data-issuekey="STOR-3036" class="issuerow">
+                                            <td class="issuetype">    Sub-bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-3036" href="https://trafilea.atlassian.net/browse/STOR-3036">STOR-3036</a>
+</td>
+                                            <td class="summary"><p>
+            <span class="parentIssue">STOR-2362</span>
+                PDP - Coupon Green bar is not on shm.com
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow257213" rel="257213" data-issuekey="STOR-3033" class="issuerow">
+                                            <td class="issuetype">    Sub-task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-3033" href="https://trafilea.atlassian.net/browse/STOR-3033">STOR-3033</a>
+</td>
+                                            <td class="summary"><p>
+            <span class="parentIssue">STOR-2362</span>
+                QA - Functional QA over Shogun PDP Template in staging
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow257070" rel="257070" data-issuekey="STOR-3029" class="issuerow">
+                                            <td class="issuetype">    Sub-bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-3029" href="https://trafilea.atlassian.net/browse/STOR-3029">STOR-3029</a>
+</td>
+                                            <td class="summary"><p>
+            <span class="parentIssue">STOR-2001</span>
+                Shogun - Search - MOB - Search floating results - background page elements are overlapping the search results
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow257049" rel="257049" data-issuekey="STOR-3028" class="issuerow">
+                                            <td class="issuetype">    Sub-bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-3028" href="https://trafilea.atlassian.net/browse/STOR-3028">STOR-3028</a>
+</td>
+                                            <td class="summary"><p>
+            <span class="parentIssue">STOR-2001</span>
+                Shogun - Search - Search results page - DSK - Pager is missing and space missing before scroll to top
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow251799" rel="251799" data-issuekey="STOR-2993" class="issuerow">
+                                            <td class="issuetype">    Improvement
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2993" href="https://trafilea.atlassian.net/browse/STOR-2993">STOR-2993</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - Implement color and size filters (Search)
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow249685" rel="249685" data-issuekey="STOR-2990" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2990" href="https://trafilea.atlassian.net/browse/STOR-2990">STOR-2990</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - SEO - Change H3 in Collections to H2
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow249684" rel="249684" data-issuekey="STOR-2989" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2989" href="https://trafilea.atlassian.net/browse/STOR-2989">STOR-2989</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - SEO - Change H1 in PDP
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow249682" rel="249682" data-issuekey="STOR-2988" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2988" href="https://trafilea.atlassian.net/browse/STOR-2988">STOR-2988</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - SEO - Rich Snippets for PDP
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow249679" rel="249679" data-issuekey="STOR-2986" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2986" href="https://trafilea.atlassian.net/browse/STOR-2986">STOR-2986</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - SEO - Change H1 in Home Page
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow248370" rel="248370" data-issuekey="STOR-2978" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2978" href="https://trafilea.atlassian.net/browse/STOR-2978">STOR-2978</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - “New colors” banner: The CTA should be “SHOP NEW COLORS”
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow248369" rel="248369" data-issuekey="STOR-2977" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2977" href="https://trafilea.atlassian.net/browse/STOR-2977">STOR-2977</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - Our Best Sellers section: The two middle products redirect to 404 error pages
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow248368" rel="248368" data-issuekey="STOR-2976" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2976" href="https://trafilea.atlassian.net/browse/STOR-2976">STOR-2976</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - Best sellers page  banner: Copy should be “Take your Summer wardrobe to new heights of confidence with #1 best sellers!”
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow248364" rel="248364" data-issuekey="STOR-2973" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2973" href="https://trafilea.atlassian.net/browse/STOR-2973">STOR-2973</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - Best Sellers banner (background image) in mobile is not properly shown.  
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow248363" rel="248363" data-issuekey="STOR-2972" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2972" href="https://trafilea.atlassian.net/browse/STOR-2972">STOR-2972</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - Packs &amp; Bundles collection banner is broken
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow242665" rel="242665" data-issuekey="STOR-2926" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2926" href="https://trafilea.atlassian.net/browse/STOR-2926">STOR-2926</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - Collections - Shop by Style filter on a collection should not be a filter itself, it should redirect to the new selected collection
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow241107" rel="241107" data-issuekey="STOR-2916" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2916" href="https://trafilea.atlassian.net/browse/STOR-2916">STOR-2916</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - Main menu is different to Shm.com - Mobile
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow211808" rel="211808" data-issuekey="STOR-2302" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2302" href="https://trafilea.atlassian.net/browse/STOR-2302">STOR-2302</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - Staging - search result page - the search is not updated
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow211566" rel="211566" data-issuekey="STOR-2294" class="issuerow">
+                                            <td class="issuetype">    Improvement
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2294" href="https://trafilea.atlassian.net/browse/STOR-2294">STOR-2294</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - Search - Searchbar - MOB - Opening the searchbar modifies the header and hides the menu, cart, and modifies the logo. Also there is no clear way out until you interact with the box
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow211538" rel="211538" data-issuekey="STOR-2276" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2276" href="https://trafilea.atlassian.net/browse/STOR-2276">STOR-2276</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - Search - Searchpage - doesn&#39;t show all search results
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow211247" rel="211247" data-issuekey="STOR-2237" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2237" href="https://trafilea.atlassian.net/browse/STOR-2237">STOR-2237</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - Staging - Search page - apply filters different from mockup  (MOBILE) 
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow205101" rel="205101" data-issuekey="STOR-2153" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2153" href="https://trafilea.atlassian.net/browse/STOR-2153">STOR-2153</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - Home - Bunddle banner font style does not match shm.com
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+
+
+                <tr id="issuerow197726" rel="197726" data-issuekey="STOR-2001" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="STOR-2001" href="https://trafilea.atlassian.net/browse/STOR-2001">STOR-2001</a>
+</td>
+                                            <td class="summary"><p>
+                Shogun - Implement search result page
+    </p>
+</td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;UAT&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;This status is managed internally by Jira Software&lt;/span&gt;">UAT</span>    </td>
+                    </tr>
+        </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="4"><font size="1">
+        Generated at Thu Jun 30 16:12:02 UTC 2022 by Igor Santos Ribeiro using Jira 1001.0.0-SNAPSHOT#100201-sha1:c6c9d1fde9caacd0da3f33625f8b62dee7557f99.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>
